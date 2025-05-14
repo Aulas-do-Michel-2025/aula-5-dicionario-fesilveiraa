@@ -12,5 +12,5 @@ variantes = [
 print ("As variantes raras são: ")
 
 for variante_rara in variantes:
-    if ["frequencia"] < 0.01:
-        print (variantes ["id"]) 
+    if variante_rara ["frequencia"] < 0.01:
+        print (variante_rara ["id"])
